@@ -4,5 +4,8 @@ A chatbot using the Watson Assistant services which continues the dialog via pho
 
 ![Architecture](architecture.jpg)
 
-
+Initially the client chats via Messenger with a chatbot. If she initiates a handover to a sales agent
+- Twilio calls the phones of the client and then the phone of a sales agent,
+- the two start to talk,
+- the status of the preceding conversation can be displayed on the Node-RED dashboard to the agent.
 
