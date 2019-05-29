@@ -2,7 +2,7 @@
 
 A chatbot using the Watson Assistant services which continues the dialog via phone should the client prefer to talk to a sales agent.
 
-![Architecture](architecture.jpg)
+![Architecture](architecture1.jpg)
 
 Initially the client chats via Messenger with a chatbot. If she initiates a handover to a sales agent
 - Twilio calls the phones of the client and then the phone of a sales agent,
